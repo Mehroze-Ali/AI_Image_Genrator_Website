@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: var(--color-text);
+    background: linear-gradient(#E9E9FF , #C8C7FF);
+}
+
+
+:root {
+    --color-primary: #5C56E1;
+    --color-primary-dark: #5b21b6;
+    --color-accent: #8B5CF6;
+    --color-card: #FFFFFF;
+    --color-input: #F1F1FF;
+    --color-text: #09090E;
+    --color-placeholder: #5C5A87;
+    --color-border: #D4D4ED;
+    --color-gradient: linear-gradient(135deg, #5C56E1, #8B5CF6);
+  }
+
+.navbar{
+    background-color: #E9E9FF;
+}
+
+
+.btn{
+    padding: 8px 15px;
+}
+
+.display-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.image{
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    background-image: url("AI_in_Mobile_App_Development-removebg-preview.png");
+}
+
+
+.btn i {
+    font-size: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+.footer {
+  background-color: #334155;
+  padding: 20px 0;
+  margin-top: 50px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-top: 1px solid #ddd;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer p {
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.social-links a {
+  color: #FFFFFF;
+  margin: 0 10px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #5C56E1; /* or any accent color you want */
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #8e44ad, #a29bfe, #6c5ce7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.Tips-Section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.custom-card {
+  width: 100%;
+  min-height: 300px;
+  padding: 20px;
+  background-color: var(--color-border)
+  
+}
+
